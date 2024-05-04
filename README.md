@@ -165,3 +165,112 @@ fun main() {
 
 ```
 repara que pra uma classe gerar outras voce tem que colocar open
+
+
+## Swift 
+
+Vamos lá cabróns e Malu.
+
+
+Pow, a ideia é não enrolar mto. Então simbora
+
+Os tipos de variáveis:
+
+Para lascar a nossa vida, muda um pouco do kotlin:
+Inteiros (Int)
+Números de Ponto Flutuante (Float e Double)
+Booleanos (Bool)
+Caracteres (Character)
+Cadeias de Caracteres (String)
+
+repare que é Bool e Character, no kotlin é Boolean e Char. 
+
+para declarar uma constante com swift voce usa let e para declarar uma variavel voce usa var
+
+então exemplos de declaracao com swift:
+
+```Swift
+
+let time: String = "Vasco da Gama"
+
+var habilidade = 3
+
+
+```
+
+
+### Como codificar uma função com swift
+
+Bem simples, curte só:
+```Swift
+func soma (_ a: Int, _ b: Int) -> Int {
+  return a+b;
+}
+```
+
+veja que tem esse sublinhadinho, com ele podemos passar os argumentos na ordem igual fazemos com as funções decentes
+```
+c = soma(3,2)
+```
+se a função fosse:
+
+```Swift
+func soma (a: Int, b: Int) -> Int {
+  return a+b;
+}
+```
+eu teria que usar 
+```
+c = soma(a:3, a:2)
+```
+
+### Como interpolar 
+
+Para interpolar é coisa mais esquisita que já vi na minha vida
+
+é assim:
+
+```Swift
+let time = "Vasco"
+
+let frase = "Posso morrer pelo meu \(time),posso chorar se ele não ganhar ,mas se ele ganhar não há garganta que não pare de berrar"
+
+
+
+```
+### for e if
+
+mesmo esquema do kotlin só que sem parenteses 
+
+
+
+### Classe
+
+```Swift
+class Pessoa {
+    // Propriedades da classe
+    private var nome: String
+    public var idade: Int
+    
+    // Método inicializador
+    init(nome: String, idade: Int) {
+        self.nome = nome
+        self.idade = idade
+    }
+    
+    // Método da classe
+    func saudacao() {
+        print("Olá, meu nome é \(nome) e eu tenho \(idade) anos.")
+    }
+}
+
+// Exemplo de uso da classe Pessoa
+let pessoa1 = Pessoa(nome: "Ana", idade: 30)
+pessoa1.saudacao() // Saída: Olá, meu nome é Ana e eu tenho 30 anos.
+
+```
+
+o gpt fez esse codigo, eu falhei com a promessa
+mas curte só o construtor é int()
+
+e tem private,public e internal como possiveis modificadores de acesso
