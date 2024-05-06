@@ -50,7 +50,7 @@ Beleza, agora como eu escrevo uma função. Mano, são 22 hrs e eu tô cansado, 
 
 ```kotlin
 
-fun (num_a : Int, num_b : Int) : Int {
+fun soma (num_a : Int, num_b : Int) : Int {
 return a+b
 }
 ```
