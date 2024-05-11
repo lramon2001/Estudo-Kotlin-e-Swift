@@ -1,5 +1,6 @@
 # Estudo-Kotlin-e-Swift
 
+## [Veja também o básico de numpy clicando aqui](/numpy/README.md)
 
 ## Objetivo
 
